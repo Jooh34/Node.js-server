@@ -32,6 +32,8 @@ mongoose.connect('mongodb://localhost:27017/start');
 
 // DEFINE MODEL
 var User = require('./models/user');
+var Menu = require('./models/menu');
+var date = require('./models/date');
 
 // [RUN SERVER]
 var server = app.listen(port, function(){
