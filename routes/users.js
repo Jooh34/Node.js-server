@@ -1,5 +1,4 @@
-var express = require("express"),
-    fs = require("fs");
+var express = require("express");
 
 var User = require('../models/user')
 
